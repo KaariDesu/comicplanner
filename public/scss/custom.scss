@@ -1,0 +1,25 @@
+//custom.scss
+
+$primary: #DDC8F4;
+$secondary: #C9DEF5;
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #AC78E3;
+$accent : #da6d25;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  accent: $accent,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
